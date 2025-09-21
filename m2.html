@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Demo V6 — Con manejo (PV6)</title>
+  <style>
+    body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#f7f8fb;color:#1f2937}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eef2f7;z-index:5}
+    .wrap{max-width:1200px;margin:0 auto;padding:14px 16px}
+    .note{font-size:12px;color:#6b7280}
+    #map{height:68vh;background:#e5ecf6;border:1px solid #e5e7eb;border-radius:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1 style="margin:0;font-size:18px">Demo V6 — <span style="font-weight:600">Pastoreo con manejo (PV6)</span></h1>
+      <div class="note">Vista separada y sin Service Worker. Datos locales + MOV remoto (Google Sheets).</div>
+    </div>
+  </header>
+
+  <main class="wrap" style="padding-top:14px">
+    <div id="map"></div>
+  </main>
+
+  <!-- Config MOV Google Sheets (remoto) -->
+  <script>
+    window.__PV6_SHEETS_MOV_URL__ =
+      "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_Rp6f-Xdv6RyWXQhY0uV1E5P3PBQpjMJIVrxeRAq4RCYMEzlqWY24Jltqstcp3uV79moaJc63d4cf/pub?gid=0&single=true&output=csv";
+  </script>
+
+  <!-- Parche MOV (remoto, sin SW) -->
+  <script src="pv6_mov_remote_patch.js?v=3.1"></script>
+
+  <!-- Núcleo (mismo app.v6.js estable del repo anterior) -->
+  <script src="app.v6.js?v=V6"></script>
+
+  <!-- Addon completo M2 (esta vista) -->
+  <script src="pv6_m2_addon_v217.js?v=1.0"></script>
+</body>
+</html>
