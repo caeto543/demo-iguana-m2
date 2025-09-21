@@ -1,0 +1,72 @@
+{
+  "date_range": {
+    "start": "2025-01-01",
+    "end": null
+  },
+  "fuente_default": "smoothed",
+  "mode_default": "eq",
+
+  "params": {
+    "Emin": 2600,
+    "Emax": 3200,
+    "Smin": 1600,
+    "Smax": 1900,
+
+    "alpha": 0.6,
+
+    "beta": 0.05,
+    "wmax": 0.3,
+
+    "dslmin": 28,
+    "dslmax": 60,
+
+    "coefUso": 60,
+    "consumo": 10,
+    "auKg": 450,
+
+    "use_fdn_120_over": 1,
+
+    "waste_mode": "curve",
+
+    "waste_curve_table": [
+      { "d": 0.5, "u": 1.00 },
+      { "d": 1.0, "u": 1.00 },
+      { "d": 2.0, "u": 0.80 },
+      { "d": 3.0, "u": 0.64 },
+      { "d": 4.0, "u": 0.51 },
+      { "d": 5.0, "u": 0.41 },
+      { "d": 6.0, "u": 0.33 },
+      { "d": 7.0, "u": 0.26 },
+      { "d": 9.0, "u": 0.19 }
+    ]
+  },
+
+  "qcMaxAge": 6,
+  "auKg": 450,
+
+  "ranking_weights": {
+    "eq": {
+      "entrada": 35,
+      "calidad": 25,
+      "pendiente": 20,
+      "descanso": 15,
+      "qc": 5
+    },
+    "gain": {
+      "entrada": 40,
+      "calidad": 30,
+      "pendiente": 20,
+      "descanso": 8,
+      "qc": 2
+    },
+    "etico": {
+      "entrada": 30,
+      "calidad": 20,
+      "pendiente": 15,
+      "descanso": 30,
+      "qc": 5
+    }
+  },
+
+  "fdn_default": 0.6
+}

@@ -1,0 +1,62 @@
+Id;name;Potrero;Potrero_1;Name Propuesto;Area
+1;zPasto_viejo_08;zPV8;Potrero_1;Pasto_viejo_z_8;0,974855358
+2;La_Divisa_01;D01;Potrero_2;La Divisa_01;21,8406633
+3;La_Divisa_02;D02;Potrero_3;La Divisa_02;18,90410071
+4;La_Divisa_03;D03;Potrero_4;La Divisa_03;13,25382497
+5;La_Divisa_04;D04;Potrero_5;La Divisa_04;10,87136831
+6;La_Divisa_05;D05;Potrero_6;La Divisa_05;8,741945884
+7;La_Divisa_06;D06;Potrero_7;La Divisa_06;13,14230582
+8;La_Divisa_07;D07;Potrero_8;La Divisa_07;12,83743065
+9;La_Divisa_08;D08;Potrero_9;La Divisa_08;10,35276727
+10;La_Divisa_09;D09;Potrero_10;La Divisa_09;6,269115477
+11;La_Divisa_09B;D09B;Potrero_11;La Divisa_09_B;4,590339754
+12;La_Divisa_10;D10;Potrero_12;La Divisa_10;6,40879448
+13;La_Divisa_11;D11;Potrero_13;La Divisa_11;7,600981911
+14;Enfermeria;Enfermeria;Potrero_14;Enfermeria;1,551428566
+15;Guasimal_01;G01;Potrero_15;Guasimal_01;8,008835696
+16;Guasimal_02;G02;Potrero_16;Guasimal_02;14,12105918
+17;Guasimal_03;G03;Potrero_17;Guasimal_03;21,95686378
+18;Guasimal_04;G04;Potrero_18;Guasimal_04;18,48313374
+19;Guasimal_05;G05;Potrero_19;Guasimal_05;14,74694964
+20;Guasimal_06;G06;Potrero_20;Guasimal_06;11,79266927
+21;Guasimal_07;G07;Potrero_21;Guasimal_07;13,10993477
+22;Guasimal_08;G08;Potrero_22;Guasimal_08;10,90859009
+23;Guasimal_09;G09;Potrero_23;Guasimal_09;4,254504223
+24;Guasimal_10;G10;Potrero_24;Guasimal_10;39,65649108
+25;Guasimal_11;G11;Potrero_25;Guasimal_11;30,14612956
+26;Guasimal_12;G12;Potrero_26;Guasimal_12;30,65237155
+27;Guasimal_13;G13;Potrero_27;Guasimal_13;24,64484703
+28;Guasimal_14;G14;Potrero_28;Guasimal_14;17,39830583
+29;Guasimal_15;G15;Potrero_29;Guasimal_15;8,103464245
+30;Pecho_de_paloma_01;PP01;Potrero_30;Pecho_de_paloma_01;8,42548945
+31;Pasto_viejo_01;PV1;Potrero_31;Pasto_viejo_1;5,579100546
+32;Pasto_viejo_02;PV2;Potrero_32;Pasto_viejo_2;14,51523804
+33;Pasto_viejo_03;PV3;Potrero_33;Pasto_viejo_3;18,20091838
+34;Pasto_viejo_04;PV4;Potrero_34;Pasto_viejo_4;13,28564678
+35;Pasto_viejo_05;PV5;Potrero_35;Pasto_viejo_5;8,582702801
+36;Pasto_viejo_06;PV6;Potrero_36;Pasto_viejo_6;11,52963632
+37;Pasto_viejo_07;PV7;Potrero_37;Pasto_viejo_7;14,76294041
+38;Pasto_viejo_08;PV8;Potrero_38;Pasto_viejo_8;17,74165185
+39;zGuasimal_01;zG01;Potrero_39;Guasimal_z_01;0,809299746
+40;zGuasimal_02;zG02;Potrero_40;Guasimal_z_02;1,252273206
+41;zGuasimal_03;zG03;Potrero_41;Guasimal_z_03;0,963189405
+42;zGuasimal_04;zG04;Potrero_42;Guasimal_z_04;0,970825579
+43;zGuasimal_05;zG05;Potrero_43;Guasimal_z_05;0,99194314
+44;zGuasimal_06;zG06;Potrero_44;Guasimal_z_06;0,989641214
+45;zGuasimal_07;zG07;Potrero_45;Guasimal_z_07;0,959246909
+46;zGuasimal_08;zG08;Potrero_46;Guasimal_z_08;0,991855303
+47;zGuasimal_11;zG11;Potrero_47;Guasimal_z_11;0,961579158
+48;zGuasimal_12;zG12;Potrero_48;Guasimal_z_12;0,989510583
+49;zGuasimal_14;zG14;Potrero_49;Guasimal_z_14;1,384415522
+50;zLa_Divisa_01;zD01;Potrero_50;La Divisa_z_01;1,265118443
+51;zLa_Divisa_02;zD02;Potrero_51;La Divisa_z_02;1,276041181
+52;zLa_Divisa_03;zD03;Potrero_52;La Divisa_z_03;0,999162621
+53;zLa_Divisa_04;zD04;Potrero_53;La Divisa_z_04;0,991224746
+54;zLa_Divisa_06;zD06;Potrero_54;La Divisa_z_06;1,266283661
+55;zLa_Divisa_07;zD07;Potrero_55;La Divisa_z_07;1,270132109
+56;zLa_Divisa_08;zD08;Potrero_56;La Divisa_z_08;1,002110901
+57;zPasto_viejo_02;zPV2;Potrero_57;Pasto_viejo_z_2;1,063572634
+58;zPasto_viejo_03;zPV3;Potrero_58;Pasto_viejo_z_3;1,022937176
+59;zPasto_viejo_04;zPV4;Potrero_59;Pasto_viejo_z_4;1,064322524
+60;zPasto_viejo_06;zPV6;Potrero_60;Pasto_viejo_z_6;0,955361481
+61;zPasto_viejo_07;zPV7;Potrero_61;Pasto_viejo_z_7;1,021397933
