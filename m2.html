@@ -32,27 +32,30 @@
       "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_Rp6f-Xdv6RyWXQhY0uV1E5P3PBQpjMJIVrxeRAq4RCYMEzlqWY24Jltqstcp3uV79moaJc63d4cf/pub?gid=0&single=true&output=csv";
   </script>
 
- <!-- Parche MOV (remoto, sin SW) -->
+<!-- Parche MOV (remoto, sin SW) -->
 <script src="pv6_mov_remote_patch.js?v=3.1"></script>
 
-<!-- Cargar en orden: Leaflet -> app.v6 -> M2 -->
+<!-- Cargar en orden: Leaflet -> PapaParse -> app.v6 -> M2 -->
 <script>
-  // helper para encadenar scripts en orden
   function load(src, next){
     var s = document.createElement('script');
     s.src = src;
-    s.onload = function(){ if (typeof next === 'function') next(); };
+    s.onload = function(){ next && next(); };
     document.body.appendChild(s);
   }
 
-  // 1) Leaflet (define "L")
+  // 1) Leaflet
   load('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', function(){
-    // 2) Núcleo de la app (usa L)
-    load('app.v6.js?v=V6', function(){
-      // 3) Addon M2 (usa la app ya cargada)
-      load('pv6_m2_addon_v217.js?v=1.0');
+    // 2) PapaParse
+    load('https://unpkg.com/papaparse@5.4.1/papaparse.min.js', function(){
+      // 3) Núcleo
+      load('app.v6.js?v=V6', function(){
+        // 4) Addon M2
+        load('pv6_m2_addon_v217.js?v=1.0');
+      });
     });
   });
 </script>
+
 </body>
 </html>
